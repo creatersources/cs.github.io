@@ -13,9 +13,9 @@ body {
   min-height: 100vh;
   font-family: 'Poppins', sans-serif;
 
-  background: linear-gradient(51deg, #62dbe3 51%, #131d58 100%);
+  background: linear-gradient(-51deg, #131d58 51%, #62dbe3 100%);
   background-size: 400% 400%;
-  animation: gradient 10s ease infinite;
+  animation: gradient 20s ease infinite;
   height: 100vh;
   /* overflow: hidden; */
 }
@@ -27,8 +27,7 @@ body {
 }
 
 .big-text {
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Sacramento', cursive;
+  font-family: 'Rubik Distressed', sans-serif;
   font-weight: bold;
   font-size: 4rem;
   line-height: 2;
