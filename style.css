@@ -427,12 +427,13 @@ body {
   .mtssectionproblems .mtslogowrapper svg {
     width: 70%;
   }
+  @media (max-width: 425px)
   .mainimagewrapper svg {
-    max-width: 490px;
-    width: 86%;
-    margin: auto;
-    display: block;
-    max-height: 260px;
+      max-width: 100%;
+      width: 100%;
+      margin-top: -280px;
+      block: ;
+      max-height: 100%;
   }
   .mtssectionproblems .mts2-footer__soc-icons {
     margin-right: 10px;
@@ -449,5 +450,12 @@ body {
     margin-bottom: 25px;
   }
 }
-.loc {
+@media (max-width: 767px){
+  .big-text {
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1;
+    margin: 32px;
+  }
+
 }
